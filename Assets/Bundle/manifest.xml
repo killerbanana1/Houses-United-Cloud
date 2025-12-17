@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<BundleManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xds="http://www.w3.org/2001/XMLSchema">
+  <BasePath>Assets/Bundle</BasePath>
+  <Namespace>Falcata Republic</Namespace>
+
+  <Hulls>
+	<Entry Name="CV_Pskellon" Address="hulls/CV_Pskellon.prefab"/>
+	<Entry Name="FF_Moxella" Address="hulls/FF_Moxella.prefab"/>
+	<Entry Name="CL_Kaliare" Address="hulls/CL_Kaliare.prefab"/>
+	<Entry Name="CL_Irsavatha" Address="hulls/CL_Irsavatha.prefab"/>
+	<Entry Name="CH_Moccotar" Address="hulls/CH_Moccotar.prefab"/>
+	<Entry Name="ACV_Acheron" Address="hulls/ACV_Acheron.prefab"/>
+  </Hulls>
+
+  <Components>
+  	<!-- Weapons -->
+	<Entry Name="RHI-4380 Cannon" Address="weapons/RHI-4380 Cannon.prefab"/>
+	<Entry Name="RHI-3380 Cannon" Address="weapons/RHI-3380 Cannon.prefab"/>
+	<Entry Name="RHI-2380 Cannon" Address="weapons/RHI-2380 Cannon.prefab"/>
+	<Entry Name="RHI-4150 Cannon" Address="weapons/RHI-4150 Cannon.prefab"/>
+	<Entry Name="RHI-2150 Cannon" Address="weapons/RHI-2150 Cannon.prefab"/>
+	<Entry Name="RHI-S1150 Cannon" Address="weapons/RHI-S1150 Cannon.prefab"/>
+	<Entry Name="RHI-S4150 Cannon" Address="weapons/RHI-S4150 Cannon.prefab"/>
+	<Entry Name="WY-137 Railgun" Address="weapons/WY-137 Railgun.prefab"/>
+	<Entry Name="WY-237 Railgun" Address="weapons/WY-237 Railgun.prefab"/>
+	<Entry Name="WY-1220 ETC Gun" Address="weapons/WY-1220 ETC Gun.prefab"/>
+	<Entry Name="RHI-S1700 Kinetic Artillery" Address="weapons/RHI-S1700 Kinetic Artillery.prefab"/>
+	<Entry Name="RHI-3220 Recoilless Rifle" Address="weapons/RHI-3220 Recoilless Rifle.prefab"/>
+	<Entry Name="RHI-S1620 Recoilless Rifle" Address="weapons/RHI-S1620 Recoilless Rifle.prefab"/>
+
+	<!-- Point Defense -->
+	<Entry Name="MED-320 'Guardian' PDT" Address="weapons/MED-320 'Guardian' PDT.prefab"/>
+	<Entry Name="MED-240 'Fleur' PDT" Address="weapons/MED-240 'Fleur' PDT.prefab"/>
+	<Entry Name="BAE-39 'Glance' PDT" Address="weapons/BAE-39 'Glance' PDT.prefab"/>
+	<Entry Name="BAE-47 'Estoc' PDT" Address="weapons/BAE-47 'Estoc' PDT.prefab"/>
+	<Entry Name="WY-190 'Merit' PDT" Address="weapons/WY-190 'Merit' PDT.prefab"/>
+	
+	<!-- Missile Launchers -->
+	<Entry Name="VLS-3 Launcher" Address="weapons/VLS-3 Launcher.prefab"/>
+	<Entry Name="RLS-4 Launcher" Address="weapons/RLS-4 Launcher.prefab"/>
+
+	<!-- Sensors -->
+	<Entry Name="SA82 'Sauron' Radar" Address="weapons/SA82 'Sauron' Radar.prefab"/>
+	<Entry Name="UC-RM36 'Repechage' Radar" Address="components/radars/RM36 'Repechage' Radar.prefab"/>
+	<Entry Name="UC-RS44 'Redoubt' Radar" Address="components/radars/RS44 'Redoubt' Radar.prefab"/>
+	<Entry Name="UC-RM54 'Conde' Radar" Address="components/radars/RM54 'Conde' Radar.prefab"/>
+	<Entry Name="UC-RS64 'L'aigle' Radar" Address="components/radars/RS64 'L'aigle' Radar.prefab"/>
+
+	<!-- Mounts -->
+	<Entry Name="E80 'Miasma'  Jammer" Address="weapons/E80 'Miasma'  Jammer.prefab"/>
+	<Entry Name="E67 'Fugue' Illuminator" Address="weapons/E67 'Fugue' Illuminator.prefab"/>
+	<Entry Name="RF99 'Quintain' Radar" Address="weapons/RF99 'Quintain' Radar.prefab"/>
+	<!-- <Entry Name="E44 'Lysandre' Illuminator" Address="weapons/E44 'Lysandre' Illuminator.prefab"/> -->
+	<Entry Name="E71 'Mecure' Jammer" Address="weapons/E71 'Mecure' Jammer.prefab"/>
+	<Entry Name="E32 'Stiletto' Dazzler" Address="weapons/E32 'Stiletto' Dazzler.prefab"/>
+
+	<!-- Compartments -->
+	<Entry Name="Reinforced Gun Plotting Center" Address="components/Reinforced Gun Plotting Center.prefab"/>
+	<Entry Name="Capacitor Bank" Address="components/Capacitor Bank.prefab"/>
+	<Entry Name="Electric Ignition Systems" Address="components/Electric Ignition Systems.prefab"/>
+	<Entry Name="Hydraulic Actuator" Address="components/Hydraulic Actuator.prefab"/>
+	<Entry Name="Missile Programming Cache" Address="components/Missile Programming Cache.prefab"/>
+	<Entry Name="Gun Plotting Center" Address="components/Gun Plotting Center.prefab"/>
+	<Entry Name="Plant Control Center" Address="components/Plant Control Center.prefab"/>
+	<Entry Name="Fire Suppression Center" Address="components/Fire Suppression Center.prefab"/>
+	<Entry Name="Damage Control Facility" Address="components/Damage Control Facility.prefab"/>
+	<Entry Name="Identification Deception Suite" Address="components/Identification Deception Suite.prefab"/>
+	<Entry Name="Intelligence CIC" Address="components/Intelligence CIC.prefab"/>
+
+	<!-- Drives -->
+	<Entry Name="FM200 Drive" Address="components/drives/FM200 Drive.prefab"/>
+	<Entry Name="FM200R Drive" Address="components/drives/FM200R Drive.prefab"/>
+	<Entry Name="FM250 'Hussar' Drive" Address="components/drives/FM250 'Hussar' Drive.prefab"/>
+	<Entry Name="FM270 'Cuirassier' Drive" Address="components/drives/FM270 'Cuirassier' Drive.prefab"/>
+	<Entry Name="FM290 'Voltigeur' Drive" Address="components/drives/FM290 'Voltigeur' Drive.prefab"/>
+	<Entry Name="FM400 Drive" Address="components/drives/FM400 Drive.prefab"/>
+	<Entry Name="FM400R Drive" Address="components/drives/FM400R Drive.prefab"/>
+	<Entry Name="FM460 'Cavalier' Drive" Address="components/drives/FM460 'Cavalier' Drive.prefab"/>
+	<Entry Name="FM470 'Cuirassier' Drive" Address="components/drives/FM470 'Cuirassier' Drive.prefab"/>
+	<Entry Name="FM600 Drive" Address="components/drives/FM600 Drive.prefab"/>
+	<Entry Name="FM660 'Cavalier' Drive" Address="components/drives/FM660 'Cavalier' Drive.prefab"/>
+	<Entry Name="FM690 'Voltigeur' Drive" Address="components/drives/FM690 'Voltigeur' Drive.prefab"/>
+	<Entry Name="WY30X 'Casper' Drive" Address="components/drives/WY30X 'Casper' Drive.prefab"/>
+	<Entry Name="WY50X 'Ripley' Drive" Address="components/drives/WY50X 'Ripley' Drive.prefab"/>
+  </Components>
+
+  <Munitions>
+  	<!-- Kinetic -->
+    <Entry Name="380mm AP Shell" Address="munitions/380mm AP Shell.asset"/>
+	<Entry Name="380mm HE Shell" Address="munitions/380mm HE Shell.asset"/>
+	<!--<Entry Name="380mm HE-ABF Shell" Address="munitions/380mm HE-ABF Shell.asset"/>-->
+	<Entry Name="200mm RP-HEI Shell" Address="munitions/200mm RP-HEI Shell.asset"/>
+	<Entry Name="220mm AP Shell" Address="munitions/220mm AP Shell.asset"/>
+	<Entry Name="700mm KART-HEI Shell" Address="munitions/700mm KART-HEI Shell.asset"/>
+	<Entry Name="700mm KART-KP Shell" Address="munitions/700mm KART-KP Shell.asset"/>
+	<Entry Name="150mm AP-S Shell" Address="munitions/150mm AP-S Shell.asset"/>
+	<Entry Name="150mm HE Shell" Address="munitions/150mm HE Shell.asset"/>
+	<Entry Name="150mm Flak Shell" Address="munitions/150mm Flak Shell.asset"/>
+	<Entry Name="40mm Flak Shell" Address="munitions/40mm Flak Shell.asset"/>
+	<Entry Name="90mm Flak Shell" Address="munitions/90mm Flak Shell.asset"/>
+	<Entry Name="37mm Pinshot" Address="munitions/37mm Pinshot.asset"/>
+	<Entry Name="37mm Sandshot" Address="munitions/37mm Sandshot.asset"/>
+
+	<!-- Utility Missiles -->
+	<Entry Name="VGT-4D1 Decoy Torpedo (Corvette)" Address="munitions/VGT-4/VGT-4D1 Decoy Torpedo (Corvette).prefab"/>
+	<Entry Name="VGT-4D2 Decoy Torpedo (Cruiser)" Address="munitions/VGT-4/VGT-4D2 Decoy Torpedo (Cruiser).prefab"/>
+  </Munitions>
+	
+  <MissileBodies>
+ 	<Entry Name="VGM-1 Body" Address="munitions/VGM-1/VGM-1 Body.prefab"/>
+	<Entry Name="VGM-2 Body" Address="munitions/VGM-2/VGM-2 Body.prefab"/>
+	<Entry Name="VGM-S-3 Body" Address="munitions/VGM-S-3/VGM-S-3 Body.prefab"/>
+	<Entry Name="VGT-4 Body" Address="munitions/VGT-4/VGT-4 Body.prefab"/>
+  </MissileBodies>
+
+  <MissileComponents>
+	<!--Entry Name="Fixed Laser-Guided Seeker" Address="munitions/missile components/Fixed Laser-Guided Seeker.asset"/-->
+	<Entry Name="Extended Anti-Radiation Seeker" Address="munitions/missile components/Extended Anti-Radiation Seeker.asset"/>
+	<!-- <Entry Name="HEI+" Address="munitions/missile components/HEI+.asset"/> -->
+  </MissileComponents>
+
+  <Spaceframes>
+  	<!--Entry Name="AN Interceptor" Address="F1/Craft/Interceptor/AN Interceptor Frame.prefab"/-->
+  </Spaceframes>
+
+  <Debuffs>
+	<Entry Name="Recoilless Cookoff" Address="debuffs/Recoilless Cookoff.asset"/>
+  </Debuffs>
+
+  <Factions>
+	<Entry Name="Falcata Republic" Address="faction/Falcata Republic.asset"/>
+  </Factions>
+
+</BundleManifest>

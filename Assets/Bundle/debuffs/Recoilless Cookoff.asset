@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1534309516, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
+  m_Name: Recoilless Cookoff
+  m_EditorClassIdentifier: 
+  _modId: 0
+  Key: N1PbYB6vPkmJjLfhzEZR6w
+  DebuffName: Recoilless Cookoff
+  AffectedClasses: []
+  CheckValidMethodName: 
+  AppliedModifiers:
+  - StatName: component-workspeed
+    Modifier: -0.15
+  IsRare: 1
+  AllowMultiple: 0
+  MultipleInstancesMultiply: 0
+  TriggeredByHitOnly: 1
+  IsFire: 1
+  ShowMountStatusBadge: 0
+  CasualtyClass: 0
+  RemoveOnDestruction: 0
+  ExternalEffectOnHitLocation: 1
+  ExternalEffects:
+  - {fileID: 971565300208098969, guid: b0029f04e1326784f8ff65906c4ca7bd, type: 3}
+  EffectsOnSocketLocation: 0
+  SocketLocationEffects: []
+  CausePeriodicDamage: 1
+  PeriodicDmgType: 1
+  PeriodicDamageAmount: 5
+  PeriodicDamagePeriod: 30
+  PeriodicDamageCrewVuln: 0.1
+  CanSpread: 0
+  SpreadPeriod: 0
+  SpreadProbability: 0
+  SpreadRange: 0
+  CatastrophicEvent: {fileID: 11400000, guid: 89bb964eddb98fb4ab6bdfda723bdd20, type: 2}
+  RepairWork: 40
+  RepairWorkCategory: 1
+  EmergencyResolutionAction: 

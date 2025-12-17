@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8293764164284040680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8293764164284040470}
+  - component: {fileID: 8293764164284040681}
+  m_Layer: 0
+  m_Name: Intelligence CIC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8293764164284040470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8293764164284040680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8293764164284040681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8293764164284040680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1493258436, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _partKey: CY99PORSnESYm5Vhc_rbmA
+  _maxHealth: 250
+  _functioningThreshold: 10
+  _damageThreshold: 40
+  _reinforced: 1
+  _bindTag: 
+  _dcPriority: 100
+  _casualtyClass: 0
+  _dcVoiceDisabledOnly: 0
+  _disabledParticles: {fileID: 0}
+  _saveKey: 
+  _modId: 0
+  _shortUIName: CIC, Intel
+  _smallImage: {fileID: 0}
+  _largeImage: {fileID: 0}
+  _factionKey: Falcata Republic/Falcata Republic
+  _shortDescription: Command Center
+  _longDescription: "The Combat Information Center (CIC) is the central command hub
+    that provides command and control for the warship, and is critical in the operation
+    of the vessel during an engagement.  This compartment is heavily reinforced and
+    resistant to damage.\r\n\r\nThis CIC also features a workspace for a large team
+    of intelligence analysts to speed up target identification and do basic battle
+    damage assessment, crucially they are able to  process tracks from across the
+    entire fleet, albeit much slower than a dedicated compartment. Intelligence effort
+    is not additive across multiple ships, or even the same ship, and only the largest
+    amount of effort will be used.  However, the speed of these analysts can be increased
+    with supporting staff in other compartments.\r\n\r\nDestruction of the CIC results
+    in a loss of command and the affected warship cannot receive commands until the
+    CIC is repaired.\r"
+  _flavorText: 
+  _category: Command
+  _costBreakdownClass: 1
+  _compoundingCost: 1
+  _compoundingCostClass: CIC
+  _firstInstanceFree: 0
+  _compoundingMultiplier: 1
+  _pointCost: 75
+  _type: 1
+  _size: {x: 6, y: 1, z: 8}
+  _interiorOverhang: 0
+  _removeSocketCap: 0
+  _mass: 50
+  _bindToTag: 
+  _rotateToFit: 1
+  _canTile: 0
+  _consistentCostForTiled: 0
+  Modifiers: []
+  _resourceDemandPriority: 1000
+  ResourcesProvided: []
+  ResourcesRequired: []
+  _uniqueDebuffs: []
+  _rareDebuffChance: 0.05
+  _rareDebuffSubtype: 
+  _debuffProbability:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0.25
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.5
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _crewRequired: 30
+  _reinforceCrewAt: -1
+  _jobName: Command
+  _commandAbility: 0
+  _workOnRemote: 1
+  _intelEffort: 10
+  _intelAccuracy: 0.25

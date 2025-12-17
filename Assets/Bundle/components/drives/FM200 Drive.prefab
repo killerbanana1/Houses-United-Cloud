@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8678682364720136757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7237681039313032873}
+  - component: {fileID: 7680879990335693497}
+  m_Layer: 0
+  m_Name: FM200 Drive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7237681039313032873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8678682364720136757}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7680879990335693497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8678682364720136757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1327320227, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _partKey: xVBXFk5JYkuW2g4mrxZ1IA
+  _maxHealth: 250
+  _functioningThreshold: 25
+  _damageThreshold: 40
+  _reinforced: 0
+  _bindTag: 
+  _dcPriority: 1000
+  _casualtyClass: 1
+  _dcVoiceDisabledOnly: 0
+  _disabledParticles: {fileID: 0}
+  _saveKey: 
+  _modId: 0
+  _shortUIName: 
+  _smallImage: {fileID: 0}
+  _largeImage: {fileID: 0}
+  _factionKey: Falcata Republic/Falcata Republic
+  _shortDescription: Fusion Drive
+  _longDescription: 'This small-sized drive system provides power to the main engines
+    of smaller warships, while also providing a decent amount of reactor power. With
+    an even balance of power and durability, the FM200 can fit all manner of warships,
+    and even provide backup drives to larger warships. '
+  _flavorText: "A mainstay of Rhiso\u2019s shipwrights, these buckets had to square
+    an extra serial number stamped on \u2018em for how many \u2018200 series they\u2019ve
+    cradled, but each and every one of them has a soul if you listened to them banter
+    long enough. Pink in the face meandering \u2018First thing in, last thing out\u2019
+    while trading stories; color me thankful the revisions need not crack a hull
+    to install where I\u2019d be red more than the usual. For a machine, they were
+    right though. Each one\u2019s got a personality and its own \u2018unique\u2019
+    pain in the ass. \r\n\r\nThis variety\u2019s an unsung hero, without none of
+    the extra kit, they\u2019re a bit less of a tease. Extra power can go a long
+    \u2018ways too.\r\r\n\n- M. Weaver, CMC\r"
+  _category: Propulsion
+  _costBreakdownClass: 8
+  _compoundingCost: 0
+  _compoundingCostClass: 
+  _firstInstanceFree: 0
+  _compoundingMultiplier: 1
+  _pointCost: 10
+  _type: 2
+  _size: {x: 5, y: 3, z: 5}
+  _interiorOverhang: 0
+  _removeSocketCap: 0
+  _mass: 20
+  _bindToTag: Thruster
+  _rotateToFit: 2
+  _canTile: 0
+  _consistentCostForTiled: 0
+  Modifiers: []
+  _resourceDemandPriority: 1000
+  ResourcesProvided:
+  - _resourceName: Power
+    _amount: 750
+    _perUnit: 0
+    _onlyWhenOperating: 0
+  ResourcesRequired: []
+  _uniqueDebuffs: []
+  _rareDebuffChance: 0.05
+  _rareDebuffSubtype: drive
+  _debuffProbability:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0.25
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.5
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _crewRequired: 10
+  _reinforceCrewAt: -1
+  _jobName: Engineering

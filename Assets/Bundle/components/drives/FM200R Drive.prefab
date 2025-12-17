@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &901359564554026219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4665378837398575047}
+  - component: {fileID: 573460175248650508}
+  m_Layer: 0
+  m_Name: FM200R Drive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4665378837398575047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901359564554026219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &573460175248650508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901359564554026219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1327320227, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _partKey: xVBXFk5JYkuW2g4mrxdhad
+  _maxHealth: 500
+  _functioningThreshold: 25
+  _damageThreshold: 60
+  _reinforced: 1
+  _bindTag: 
+  _dcPriority: 1000
+  _casualtyClass: 1
+  _dcVoiceDisabledOnly: 0
+  _disabledParticles: {fileID: 0}
+  _saveKey: 
+  _modId: 0
+  _shortUIName: 
+  _smallImage: {fileID: 0}
+  _largeImage: {fileID: 0}
+  _factionKey: Falcata Republic/Falcata Republic
+  _shortDescription: Fusion Drive
+  _longDescription: 'This small-sized drive system provides power for the main engines
+    of smaller warships, while also providing a small amount of reactor power. Accommodations
+    for additional bracing, as well as Integrated auxiliary power shunts and reactor
+    shutoff systems, provide a reliable drive module for all manner of ships across
+    the fleet. '
+  _flavorText: "\u2019Dog that caught the car \u2018these. Armor spanning all the
+    way to the radial, hell you\u2019d think they\u2019d nixed a blueprint and kept
+    going before nobody noticed. Downright minor miracle how the armor squeezes through
+    most bay gantries even if it's not unlike moving a sofa. \r\n\r\nDon\u2019t need
+    me to tell ya\u2019 they\u2019re a right pain, but I will, and they are. The
+    plate blocks most of her outlets, and the only way to get tools close enough
+    to the auxiliaries and delicate tokamak controls would be with her coils cold
+    on this variety. They keep plenty stable gettin\u2019 clobbered in the fight,
+    but ye\u2019 need only shake my hand and know why I don\u2019t dabble \u2018till
+    she\u2019s on ice. It\u2019d be a laugh to pull on Murphy though the way he keeps
+    his toolbox close. Think he\u2019d bite? \r\n\r\n- M. Weaver, CMC"
+  _category: Propulsion
+  _costBreakdownClass: 8
+  _compoundingCost: 0
+  _compoundingCostClass: 
+  _firstInstanceFree: 0
+  _compoundingMultiplier: 1
+  _pointCost: 20
+  _type: 2
+  _size: {x: 5, y: 5, z: 5}
+  _interiorOverhang: 0
+  _removeSocketCap: 0
+  _mass: 35
+  _bindToTag: Thruster
+  _rotateToFit: 2
+  _canTile: 0
+  _consistentCostForTiled: 0
+  Modifiers: []
+  _resourceDemandPriority: 1000
+  ResourcesProvided:
+  - _resourceName: Power
+    _amount: 500
+    _perUnit: 0
+    _onlyWhenOperating: 0
+  ResourcesRequired: []
+  _uniqueDebuffs: []
+  _rareDebuffChance: 0.025
+  _rareDebuffSubtype: drive
+  _debuffProbability:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0.25
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.5
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _crewRequired: 10
+  _reinforceCrewAt: -1
+  _jobName: Engineering

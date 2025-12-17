@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2408345682664124121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3732463065979018274}
+  - component: {fileID: 7004778912628040796}
+  m_Layer: 0
+  m_Name: FM460 'Cavalier' Drive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3732463065979018274
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2408345682664124121}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7004778912628040796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2408345682664124121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1327320227, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _partKey: xj5fak5JYkuW2g4mrxZ1IA
+  _maxHealth: 750
+  _functioningThreshold: 40
+  _damageThreshold: 60
+  _reinforced: 0
+  _bindTag: 
+  _dcPriority: 1000
+  _casualtyClass: 1
+  _dcVoiceDisabledOnly: 0
+  _disabledParticles: {fileID: 0}
+  _saveKey: 
+  _modId: 0
+  _shortUIName: 
+  _smallImage: {fileID: 0}
+  _largeImage: {fileID: 0}
+  _factionKey: Falcata Republic/Falcata Republic
+  _shortDescription: Fusion Drive
+  _longDescription: "The \u2018Cavalier\u2019 series of drives were built for modern
+    fleet warfare\u2014where positioning is power, and the first ship to the battlespace
+    writes the terms of engagement. Whether you're closing the distance for a broadsides
+    engagement or repositioning ahead of a flanking maneuver, the Cavalier grants
+    capital ships the strategic mobility associated with lighter vessels."
+  _flavorText: "There\u2019s a kind of respect that comes from watching 10,000 tons
+    of warship move like it\u2019s got somewhere to be. You don\u2019t out-maneuver
+    your enemies with a drive like this. You outpace them. You out-think them. For
+    being exactly where the enemy didn\u2019t want you to be. Speed is the most important
+    factor in determining how an engagement will play out, and the Cavalier provides
+    a decisive leg up that you\u2019d be foolish not to take advantage of.\r\n\n-
+    J. Trenero, ADM\r"
+  _category: Propulsion
+  _costBreakdownClass: 8
+  _compoundingCost: 0
+  _compoundingCostClass: 
+  _firstInstanceFree: 0
+  _compoundingMultiplier: 1
+  _pointCost: 30
+  _type: 2
+  _size: {x: 9, y: 7, z: 9}
+  _interiorOverhang: 0
+  _removeSocketCap: 0
+  _mass: 40
+  _bindToTag: Thruster
+  _rotateToFit: 2
+  _canTile: 0
+  _consistentCostForTiled: 0
+  Modifiers:
+  - _statName: hull-maxspeed
+    _literal: 0
+    _modifier: 0.15
+    _permanent: 0
+  - _statName: hull-angularmotor
+    _literal: 0
+    _modifier: 0.15
+    _permanent: 0
+  _resourceDemandPriority: 1000
+  ResourcesProvided:
+  - _resourceName: Power
+    _amount: 1000
+    _perUnit: 0
+    _onlyWhenOperating: 0
+  ResourcesRequired: []
+  _uniqueDebuffs: []
+  _rareDebuffChance: 0.05
+  _rareDebuffSubtype: drive
+  _debuffProbability:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0.25
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.5
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _crewRequired: 10
+  _reinforceCrewAt: -1
+  _jobName: Engineering

@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &196330636196349379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 196330636196349377}
+  - component: {fileID: 196330636196349378}
+  m_Layer: 0
+  m_Name: Identification Deception Suite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &196330636196349377
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196330636196349379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &196330636196349378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196330636196349379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -477184845, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _partKey: 5QIKyLeZZ0-Yz2N7S2QkH
+  _maxHealth: 100
+  _functioningThreshold: 10
+  _damageThreshold: 15
+  _reinforced: 0
+  _bindTag: 
+  _dcPriority: 10
+  _casualtyClass: 0
+  _dcVoiceDisabledOnly: 0
+  _disabledParticles: {fileID: 0}
+  _saveKey: 
+  _modId: 0
+  _shortUIName: Mockingjay
+  _smallImage: {fileID: 0}
+  _largeImage: {fileID: 0}
+  _factionKey: Falcata Republic/Falcata Republic
+  _shortDescription: Electronic Deception Module
+  _longDescription: The IDS, sometimes referred to as the 'Mockingjay' is the product
+    of no small amount of espionage targeted at the Alliance Navy. It is a domestic
+    version of the Alliances own 'Masquerade' deception module, but in a different
+    form factor. Copying your peers work decades later certainly has its perks, as
+    advances in technology no longer mandate the equipment be externally mounted.
+    A complex set of emissions can fool even the most advanced sensors into thinking
+    a ship is something else entirely.
+  _flavorText: 
+  _category: EWar
+  _costBreakdownClass: 0
+  _compoundingCost: 0
+  _compoundingCostClass: 
+  _firstInstanceFree: 0
+  _compoundingMultiplier: 1
+  _pointCost: 25
+  _type: 2
+  _size: {x: 2, y: 2, z: 2}
+  _interiorOverhang: 0
+  _removeSocketCap: 0
+  _mass: 5
+  _bindToTag: 
+  _rotateToFit: 0
+  _canTile: 0
+  _consistentCostForTiled: 0
+  Modifiers: []
+  _resourceDemandPriority: 10
+  ResourcesProvided: []
+  ResourcesRequired:
+  - _resourceName: Power
+    _amount: 600
+    _perUnit: 0
+    _onlyWhenOperating: 1
+  _uniqueDebuffs: []
+  _rareDebuffChance: 0.05
+  _rareDebuffSubtype: 
+  _debuffProbability:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0.25
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.5
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _identOptions:
+  - Class: Heavy Cruiser
+    ClassName: Moccotar
+    MaxRCS: 1805
+  - Class: Cruiser
+    ClassName: Irsavatha
+    MaxRCS: 1360
+  - Class: Ancillary Cruiser
+    ClassName: Kaliare
+    MaxRCS: 900
+  - Class: Assault Ship
+    ClassName: Acheron
+    MaxRCS: 720
+  - Class: Destroyer
+    ClassName: Moxella
+    MaxRCS: 520
+  - Class: Corvette
+    ClassName: Pskellon
+    MaxRCS: 270
