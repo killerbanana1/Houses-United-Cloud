@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1239139125, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
+  m_Name: Houses United
+  m_EditorClassIdentifier: 
+  FactionName: Houses United
+  SmallLogo: {fileID: 21300000, guid: db91db54a3f03cd438b7a1519601617d, type: 3}
+  LargeLogo: {fileID: 21300000, guid: 63535c5a3f3b1c749b857625ccec18f1, type: 3}
+  BackgroundColor: {r: 0.2, g: 0.1772502, b: 0.031372547, a: 1}
+  Description: WIP
+  NewFleetFirstShip: Houses United/CL_Agano
+  _sharedFactionAll: []
+  _sharedEquipmentList:
+  - Stock/Basic CIC
+  - Stock/Reinforced CIC
+  - Stock/Auxiliary Steering
+  - Stock/Small DC Locker
+  - Stock/Reinforced DC Locker
+  - Stock/Large DC Locker
+  - Stock/Rapid DC Locker
+  - Stock/Damage Control Central
+  - Stock/Small Workshop
+  - Stock/Bulk Magazine
+  - Stock/Reinforced Magazine
+  - Stock/Battle Dressing Station
+  - Stock/Analysis Annex
+  - Stock/Intelligence Center
+  - Stock/Small Reactor Booster
+  - Stock/Adaptive Radar Receiver
+  - Stock/Track Correlator
+  - Stock/Strobe Correlator
+  - Stock/Supplementary Radio Amplifiers
+  - Stock/Launcher Deluge System
+  - Stock/Magazine Sprinklers
+  - Stock/Redundant Reactor Failsafes
+  - Stock/Reinforced Thruster Nozzles
+  - Stock/Ammunition Elevators
+  - Stock/Actively Cooled Amplifiers
+  - Stock/Missile Programming Bus
+  - Stock/Missile Programming Bus Array
+  - Stock/Missile Parallel Interface
+  - Stock/CR10 Antenna
+  - Stock/VLS-1-23 Launcher
+  - Stock/VLS-1-46 Launcher
+  - Stock/Strike Planning Center
+  - Stock/FR3300 Micro Reactor
+  - Stock/FR4800 Reactor
+  - Stock/VLS-2 Launcher
+  - Stock/ES22 'Pinard' Electronic Support Module
+  - Stock/ES32 'Scryer' Missile ID System
+  - Stock/Signature Scrambler
+  - Stock/CR70 Antenna
+  - Stock/20mm Slug
+  - Stock/HE Kinetic Penetrator
+  - Stock/EA12 Chaff Decoy
+  - Stock/EA20 Flare Decoy
+  - Stock/EA99 Active Decoy
+  _sharedEquipmentPatterns: []
+  _saveKey: 
+  _modId: 0
