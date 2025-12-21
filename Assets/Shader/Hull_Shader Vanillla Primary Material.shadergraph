@@ -8765,7 +8765,7 @@
     "m_DisplayName": "SamplerState",
     "m_SlotType": 0,
     "m_Hidden": false,
-    "m_ShaderOutputName": "SamplerState_Trilinear_Repeat",
+    "m_ShaderOutputName": "SamplerState_e197c718db0f9087b0f229f81379d2e0",
     "m_StageCapability": 2,
     "m_BareResource": false
 }

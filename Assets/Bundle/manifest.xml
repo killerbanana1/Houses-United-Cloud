@@ -20,16 +20,18 @@
 	<!-- Sensors -->
 
 	<!-- Mounts -->
-
+	<Entry Name="Type 7 Cannon" Address="weapons/Type 7 Cannon.prefab"/>
+	<Entry Name="Type 6 Cannon" Address="weapons/Type 6 Cannon.prefab"/>
 	<!-- Compartments -->
-
+	<Entry Name="Small DC Storage" Address="components/Small DC Storage.prefab"/>
 	<!-- Drives -->
 
   </Components>
 
   <Munitions>
   	<!-- Kinetic -->
-
+	<Entry Name="203mm AP Shell" Address="munitions/203mm AP Shell.asset"/>
+	<Entry Name="203mm HE Shell" Address="munitions/203mm HE Shell.asset"/>
 	<!-- Utility Missiles -->
 
   </Munitions>

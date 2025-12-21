@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7405496143967147121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1460791097308916432}
+  - component: {fileID: 2663084258926619061}
+  m_Layer: 0
+  m_Name: Small DC Storage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1460791097308916432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7405496143967147121}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6145263, y: 1.811144, z: -6.754853}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2663084258926619061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7405496143967147121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 837543884, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _partKey: eiaF59_lskKn_2KIH2rqzQ
+  _maxHealth: 150
+  _functioningThreshold: 10
+  _damageThreshold: 15
+  _reinforced: 0
+  _bindTag: 
+  _dcPriority: 0
+  _casualtyClass: 1
+  _dcVoiceDisabledOnly: 0
+  _disabledParticles: {fileID: 0}
+  _saveKey: 
+  _modId: 0
+  _shortUIName: DC Storage, Small
+  _smallImage: {fileID: 0}
+  _largeImage: {fileID: 0}
+  _factionKey: 
+  _shortDescription: Damage Control
+  _longDescription: This compartment is essentially a large storage closet for spare
+    parts and damage control equipment. It does not contain facilities to equip any
+    damage control personell, requiring dedicated damage control lockers with crew
+    members to properly support a ship.
+  _flavorText: "These storages were put in place of crew bunks as we began to refit
+    our older vessels with more modern systems in an attempt to increase their survivability
+    and endurance in the field. In that regard they have been startlingly effective,
+    especially compared to the aformentioned \"modern systems.\" Its always useful
+    to have an extra wrench set onboard, and an extra place to sequester away a bottle
+    of Jack Daniels. Just dont let one of the Areki members find out. \n\n- J. Auburn,
+    MSL"
+  _category: Damage Control
+  _costBreakdownClass: 7
+  _compoundingCost: 0
+  _compoundingCostClass: 
+  _firstInstanceFree: 0
+  _compoundingMultiplier: 1
+  _pointCost: 35
+  _type: 1
+  _size: {x: 3, y: 1, z: 3}
+  _interiorOverhang: 0
+  _removeSocketCap: 0
+  _mass: 2.5
+  _bindToTag: 
+  _rotateToFit: 1
+  _canTile: 0
+  _consistentCostForTiled: 0
+  Modifiers: []
+  _resourceDemandPriority: 10
+  ResourcesProvided: []
+  ResourcesRequired: []
+  _uniqueDebuffs: []
+  _rareDebuffChance: 0.05
+  _rareDebuffSubtype: 
+  _debuffProbability:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0.25
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.5
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _crewRequired: 0
+  _reinforceCrewAt: -1
+  _jobName: 
+  _teamTitle: Repair Team
+  _teamsProduced: 0
+  _crewPerTeam: 0
+  _movementSpeed: 0
+  _repairPerTick: 0
+  _canRestore: 0
+  _restoreCount: 2

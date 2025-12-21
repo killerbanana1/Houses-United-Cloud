@@ -299,7 +299,7 @@ Material:
     - _decal4SrcUV: {r: 0, g: 0, b: 1, a: 1}
     - _decal5DestUV: {r: 0.302753, g: 0.394414, b: 0.632524, a: 0.724184}
     - _decal5SrcUV: {r: 0, g: 0, b: 1, a: 1}
-    - _decal6DestUV: {r: -1, g: -1, b: -1, a: -1}
+    - _decal6DestUV: {r: 0.654008, g: 0.394414, b: 0.983778, a: 0.724184}
     - _decal6SrcUV: {r: 0, g: 0, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &8070083200254297106

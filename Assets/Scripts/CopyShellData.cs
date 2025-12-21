@@ -55,21 +55,8 @@ public class CopyShellData : IModEntryPoint
         // List of turret mappings
         string[,] turretPairs = new string[,]
         {
-            { "Stock/Mk68 Cannon", "Falcata Republic/RHI-4380 Cannon" },
-            { "Stock/Mk68 Cannon", "Falcata Republic/RHI-3380 Cannon" },
-            { "Stock/Mk68 Cannon", "Falcata Republic/RHI-2380 Cannon" },
-            { "Stock/Mk65 Cannon", "Falcata Republic/RHI-4150 Cannon" },
-            { "Stock/Mk65 Cannon", "Falcata Republic/RHI-2150 Cannon" },
-            { "Stock/Mk65 Cannon", "Falcata Republic/RHI-3220 Recoilless Rifle" },
-            { "Stock/C65 Cannon", "Falcata Republic/RHI-S1620 Recoilless Rifle" },
-            { "Stock/C65 Cannon", "Falcata Republic/RHI-S1700 Kinetic Artillery" },
-            { "Stock/C53 Cannon", "Falcata Republic/RHI-S1150 Cannon" },
-            { "Stock/C53 Cannon", "Falcata Republic/RHI-S4150 Cannon" },
-            { "Stock/Mk81 Railgun", "Falcata Republic/WY-137 Railgun" },
-            { "Stock/Mk81 Railgun", "Falcata Republic/WY-237 Railgun" },
-            { "Stock/Mk64 Cannon", "Falcata Republic/WY-1220 ETC Gun" },
-            { "Stock/T20 Cannon", "Falcata Republic/WY-190 'Merit' PDT" },
-            { "Stock/Mk29 'Stonewall' PDT", "Falcata Republic/MED-240 'Fleur' PDT" }
+            { "Stock/Mk65 Cannon", "Houses United/Type 7 Cannon" },
+            { "Stock/Mk65 Cannon", "Houses United/Type 6 Cannon" },
         };
 
         for (int i = 0; i < turretPairs.GetLength(0); i++)
@@ -159,20 +146,20 @@ public class CopyShellData : IModEntryPoint
 
         void Map<T>(string src, string dest) => updateMunition<T>(munitionDictionary, src, dest);
 
-        Map<LightweightKineticShell>("Stock/450mm AP Shell", "Falcata Republic/380mm AP Shell");
-        Map<LightweightExplosiveShell>("Stock/450mm HE Shell", "Falcata Republic/380mm HE Shell");
+        Map<LightweightKineticShell>("Stock/250mm AP Shell", "Houses United/203mm AP Shell");
+        Map<LightweightExplosiveShell>("Stock/250mm HE Shell", "Houses United/203mm HE Shell");
         //Map<LightweightProximityShell>("Stock/250mm HE-RPF Shell", "Falcata Republic/380mm HE-ABF Shell");
-        Map<LightweightKineticShell>("Stock/120mm AP Shell", "Falcata Republic/200mm RP-HEI Shell");
-        Map<LightweightKineticShell>("Stock/250mm AP Shell", "Falcata Republic/220mm AP Shell");
-        Map<LightweightKineticShell>("Stock/450mm HE Shell", "Falcata Republic/700mm KART-HEI Shell");
-        Map<LightweightKineticShell>("Stock/450mm AP Shell", "Falcata Republic/700mm KART-KP Shell");
-        Map<LightweightKineticShell>("Stock/300mm AP Rail Sabot", "Falcata Republic/37mm Pinshot");
-        Map<LightweightClusterShell>("Stock/15mm Sandshot", "Falcata Republic/37mm Sandshot");
-        Map<LightweightExplosiveShell>("Stock/250mm HE Shell", "Falcata Republic/150mm HE Shell");
-        Map<LightweightKineticShell>("Stock/250mm AP Shell", "Falcata Republic/150mm AP-S Shell");
-        Map<LightweightAirburstShell>("Stock/100mm Flak", "Falcata Republic/150mm Flak Shell");
-        Map<LightweightAirburstShell>("Stock/100mm Flak", "Falcata Republic/90mm Flak Shell");
-        Map<LightweightAirburstShell>("Stock/Flak Round", "Falcata Republic/40mm Flak Shell");
+        //Map<LightweightKineticShell>("Stock/120mm AP Shell", "Falcata Republic/200mm RP-HEI Shell");
+        //Map<LightweightKineticShell>("Stock/250mm AP Shell", "Falcata Republic/220mm AP Shell");
+        //Map<LightweightKineticShell>("Stock/450mm HE Shell", "Falcata Republic/700mm KART-HEI Shell");
+        //Map<LightweightKineticShell>("Stock/450mm AP Shell", "Falcata Republic/700mm KART-KP Shell");
+        //Map<LightweightKineticShell>("Stock/300mm AP Rail Sabot", "Falcata Republic/37mm Pinshot");
+        //Map<LightweightClusterShell>("Stock/15mm Sandshot", "Falcata Republic/37mm Sandshot");
+        //Map<LightweightExplosiveShell>("Stock/250mm HE Shell", "Falcata Republic/150mm HE Shell");
+        //Map<LightweightKineticShell>("Stock/250mm AP Shell", "Falcata Republic/150mm AP-S Shell");
+        //Map<LightweightAirburstShell>("Stock/100mm Flak", "Falcata Republic/150mm Flak Shell");
+        //Map<LightweightAirburstShell>("Stock/100mm Flak", "Falcata Republic/90mm Flak Shell");
+        //Map<LightweightAirburstShell>("Stock/Flak Round", "Falcata Republic/40mm Flak Shell");
         //Map<NonphysicalMunition>("Stock/20mm Slug", "Falcata Republic/30mm Slug");
 
         Debug.Log("[Falcata] updateAllMunitions complete.");

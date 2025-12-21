@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: komorebi-gothic SDF Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: UNDERLAY_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -115,9 +115,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: komorebi-gothic SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: -979155304
   material: {fileID: -6381570514090871070}
-  materialHashCode: 0
+  materialHashCode: -1822707912
   m_Version: 1.1.0
   m_SourceFontFileGUID: 36ba7c6a8724ac74ea117dcb8c536417
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 36ba7c6a8724ac74ea117dcb8c536417, type: 3}
