@@ -2163,7 +2163,7 @@ MonoBehaviour:
   _disabledParticles: {fileID: 0}
   _power: 0.8
   _contributeAngular: 1
-  _overrideNormal: {x: 0, y: -1, z: 0}
+  _overrideNormal: {x: 0, y: 1, z: 0}
   _particles: {fileID: 679731847711514052}
   _tweenParticlePower: 0
   _particleThrottleRate: 0.5
@@ -2527,7 +2527,7 @@ MonoBehaviour:
   _disabledParticles: {fileID: 0}
   _power: 0.8
   _contributeAngular: 1
-  _overrideNormal: {x: 0, y: 1, z: 0}
+  _overrideNormal: {x: 1, y: 0, z: 0}
   _particles: {fileID: 679731848036757616}
   _tweenParticlePower: 0
   _particleThrottleRate: 0.5
@@ -2709,7 +2709,7 @@ MonoBehaviour:
   _disabledParticles: {fileID: 0}
   _power: 0.8
   _contributeAngular: 1
-  _overrideNormal: {x: 1, y: 0, z: 0}
+  _overrideNormal: {x: 0, y: -1, z: 0}
   _particles: {fileID: 679731848059024792}
   _tweenParticlePower: 0
   _particleThrottleRate: 0.5
@@ -3222,7 +3222,7 @@ MonoBehaviour:
   _attachPoint: {x: 0, y: 0, z: 0}
   _type: 2
   _shortName: MOD7
-  _defaultComponent: Falcata Republic/UC-RS64 'L'aigle' Radar
+  _defaultComponent: 
   _component: {fileID: 0}
   _cap: {fileID: 0}
   _collider: {fileID: 679731848372138332}
@@ -3304,7 +3304,7 @@ MonoBehaviour:
   _disabledParticles: {fileID: 0}
   _power: 0.8
   _contributeAngular: 1
-  _overrideNormal: {x: 1, y: 0, z: 0}
+  _overrideNormal: {x: -1, y: 0, z: 0}
   _particles: {fileID: 679731848455587795}
   _tweenParticlePower: 0
   _particleThrottleRate: 0.5
@@ -4384,7 +4384,7 @@ MonoBehaviour:
   _casualtyClass: 1
   _dcVoiceDisabledOnly: 0
   _disabledParticles: {fileID: 0}
-  _power: 0.8
+  _power: 0.9
   _contributeAngular: 1
   _overrideNormal: {x: 0, y: -1, z: 0}
   _particles: {fileID: 679731849025221587}
@@ -5019,7 +5019,7 @@ MonoBehaviour:
   _disabledParticles: {fileID: 0}
   _power: 0.8
   _contributeAngular: 1
-  _overrideNormal: {x: -1, y: 0, z: 0}
+  _overrideNormal: {x: 1, y: 0, z: 0}
   _particles: {fileID: 679731849263237106}
   _tweenParticlePower: 0
   _particleThrottleRate: 0.5
@@ -5205,7 +5205,7 @@ MonoBehaviour:
   _attachPoint: {x: 0, y: 0, z: 0}
   _type: 2
   _shortName: MOD3
-  _defaultComponent: Falcata Republic/UC-RS64 'L'aigle' Radar
+  _defaultComponent: 
   _component: {fileID: 0}
   _cap: {fileID: 0}
   _collider: {fileID: 679731849327222628}
@@ -5980,7 +5980,7 @@ MonoBehaviour:
   m_Script: {fileID: 1832581930, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _originalMaterial: {fileID: 2100000, guid: b6caa1ae786fa1b43a225af0c8daf688, type: 2}
+  _originalMaterial: {fileID: 2100000, guid: cf117eee0d28a0b4db0ab3bf19140a9e, type: 2}
   _additionalMaterialTargets: []
   _originalMaterials:
   - {fileID: 2100000, guid: 954138d91c4bf7d4092e09b20e6da5d2, type: 2}
@@ -5990,22 +5990,22 @@ MonoBehaviour:
     Size: {x: 357, y: 204}
     Alignment: 1026
     Font: {fileID: 11400000, guid: 9e57291481893a54e94493f95ec9fd76, type: 2}
-    FontMaterial: {fileID: -6381570514090871070, guid: 1e4f388ba7b79e940b8e30ff46400d43, type: 2}
+    FontMaterial: {fileID: -2921264232695489279, guid: 9e57291481893a54e94493f95ec9fd76, type: 2}
   - Type: 1
     Size: {x: 357, y: 204}
     Alignment: 1026
     Font: {fileID: 11400000, guid: 9e57291481893a54e94493f95ec9fd76, type: 2}
-    FontMaterial: {fileID: -6381570514090871070, guid: 1e4f388ba7b79e940b8e30ff46400d43, type: 2}
+    FontMaterial: {fileID: -2921264232695489279, guid: 9e57291481893a54e94493f95ec9fd76, type: 2}
   - Type: 0
     Size: {x: 830, y: 190}
     Alignment: 514
     Font: {fileID: 11400000, guid: 9e57291481893a54e94493f95ec9fd76, type: 2}
-    FontMaterial: {fileID: -6381570514090871070, guid: 1e4f388ba7b79e940b8e30ff46400d43, type: 2}
+    FontMaterial: {fileID: -2921264232695489279, guid: 9e57291481893a54e94493f95ec9fd76, type: 2}
   - Type: 0
     Size: {x: 830, y: 190}
     Alignment: 514
     Font: {fileID: 11400000, guid: 9e57291481893a54e94493f95ec9fd76, type: 2}
-    FontMaterial: {fileID: -6381570514090871070, guid: 1e4f388ba7b79e940b8e30ff46400d43, type: 2}
+    FontMaterial: {fileID: -2921264232695489279, guid: 9e57291481893a54e94493f95ec9fd76, type: 2}
   - Type: 2
     Size: {x: 128, y: 128}
     Alignment: 514
@@ -7730,7 +7730,7 @@ MonoBehaviour:
   _attachPoint: {x: 0, y: 0, z: 0}
   _type: 2
   _shortName: MOD1
-  _defaultComponent: Falcata Republic/FM600 Drive
+  _defaultComponent: 
   _component: {fileID: 0}
   _cap: {fileID: 0}
   _collider: {fileID: 953239153247894437}
@@ -8195,8 +8195,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12, y: 7, z: 27}
-  m_Center: {x: 0, y: 0, z: 1.5}
+  m_Size: {x: 10, y: 10, z: 24}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5233882561397594634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11272,7 +11272,7 @@ MonoBehaviour:
   m_Script: {fileID: 1832581930, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _originalMaterial: {fileID: 2100000, guid: cf117eee0d28a0b4db0ab3bf19140a9e, type: 2}
+  _originalMaterial: {fileID: 2100000, guid: b6caa1ae786fa1b43a225af0c8daf688, type: 2}
   _additionalMaterialTargets: []
   _originalMaterials:
   - {fileID: 2100000, guid: 44760e55e8013bd4b80aac8385ea296c, type: 2}
@@ -11292,12 +11292,12 @@ MonoBehaviour:
     Size: {x: 357, y: 204}
     Alignment: 514
     Font: {fileID: 11400000, guid: 9e57291481893a54e94493f95ec9fd76, type: 2}
-    FontMaterial: {fileID: -6381570514090871070, guid: 1e4f388ba7b79e940b8e30ff46400d43, type: 2}
+    FontMaterial: {fileID: -2921264232695489279, guid: 9e57291481893a54e94493f95ec9fd76, type: 2}
   - Type: 1
     Size: {x: 357, y: 204}
     Alignment: 514
     Font: {fileID: 11400000, guid: 9e57291481893a54e94493f95ec9fd76, type: 2}
-    FontMaterial: {fileID: -6381570514090871070, guid: 1e4f388ba7b79e940b8e30ff46400d43, type: 2}
+    FontMaterial: {fileID: -2921264232695489279, guid: 9e57291481893a54e94493f95ec9fd76, type: 2}
   _materialIndex: 1
 --- !u!1 &6376153890119834020
 GameObject:
@@ -11515,7 +11515,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6758189617896021267}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.22, z: 1.25}
+  m_LocalPosition: {x: 0, y: -0.12, z: 1.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1559034451180543385}
@@ -11532,8 +11532,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.4, y: 2, z: 10}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2, y: 2, z: 8}
+  m_Center: {x: 0, y: 0, z: -1.26}
 --- !u!114 &5755056134134280969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11859,7 +11859,6 @@ GameObject:
   m_Component:
   - component: {fileID: 725534848963420618}
   - component: {fileID: 6059129839436247948}
-  - component: {fileID: 7205568146997169863}
   m_Layer: 12
   m_Name: Radar Signature
   m_TagString: Untagged
@@ -11898,7 +11897,7 @@ MonoBehaviour:
   _includeSimpleMultiplierWithStat: 0
   _hideInSignatureSummary: 0
   _preferSignatureRandomPoints: 0
-  _collider: {fileID: 7205568146997169863}
+  _collider: {fileID: 0}
   _sigSize:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 4.75, y: 3.5, z: 9.5}
@@ -11907,19 +11906,6 @@ MonoBehaviour:
   _constantReturn: 0
   _illuminationPowerMultiplier: 1
   _detailedOcclusionTest: 0
---- !u!65 &7205568146997169863
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7350445131802520670}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 9.5, y: 7, z: 19}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7359086793242762086
 GameObject:
   m_ObjectHideFlags: 0

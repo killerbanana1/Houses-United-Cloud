@@ -5,6 +5,7 @@
 
   <Hulls>
 	<Entry Name="CL_Agano" Address="hulls/CL_Agano.prefab"/>
+	<Entry Name="MN_Kawachi" Address="hulls/MN_Kawachi.prefab"/>
 	<Entry Name="CH_Moccotar" Address="hulls/CH_Moccotar.prefab"/>
 	<Entry Name="ACV_Acheron" Address="hulls/ACV_Acheron.prefab"/>
   </Hulls>

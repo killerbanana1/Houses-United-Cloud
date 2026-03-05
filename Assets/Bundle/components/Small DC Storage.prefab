@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 837543884, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _partKey: eiaF59_lskKn_2KIH2rqzQ
+  _partKey: ldfnd341slskKn_2KIH2ewwqa
   _maxHealth: 150
   _functioningThreshold: 10
   _damageThreshold: 15
@@ -77,7 +77,7 @@ MonoBehaviour:
   _compoundingCostClass: 
   _firstInstanceFree: 0
   _compoundingMultiplier: 1
-  _pointCost: 35
+  _pointCost: 45
   _type: 1
   _size: {x: 3, y: 1, z: 3}
   _interiorOverhang: 0
@@ -121,10 +121,10 @@ MonoBehaviour:
   _crewRequired: 0
   _reinforceCrewAt: -1
   _jobName: 
-  _teamTitle: Repair Team
-  _teamsProduced: 0
-  _crewPerTeam: 0
-  _movementSpeed: 0
-  _repairPerTick: 0
+  _teamTitle: Small Repair Team
+  _teamsProduced: 1
+  _crewPerTeam: 3
+  _movementSpeed: 0.2
+  _repairPerTick: 0.15
   _canRestore: 0
   _restoreCount: 2
